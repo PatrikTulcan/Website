@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #2f3035;
+  background-image: url(background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+  height: 118px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+nav {
+  background-color: #0000001e;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+footer {
+  background-color: #0000001e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 84px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* text-decoration: none; */
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
